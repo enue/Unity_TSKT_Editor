@@ -1,0 +1,10 @@
+{
+    "name": "com.github.enue.tskt_editor",
+    "displayName": "TSKT Editor",
+    "version": "0.0.0",
+    "unity": "2018.4.1",
+    "description": "",
+    "keywords": [],
+    "category": "",
+    "dependencies": {}
+}
