@@ -11,7 +11,12 @@ namespace TSKT
         {
             string objectName = selectedObject.name;
             string dirPath = Path.GetDirectoryName(AssetDatabase.GetAssetPath(selectedObject));
-            string path = string.Format("{0}/{1}." + extension, dirPath, objectName);
+            return GenerateUniqueAssetPath(dirPath, objectName, extension);
+        }
+
+        static public string GenerateUniqueAssetPath(string directory, string filename, string extension)
+        {
+            var path = Path.Combine(directory, filename + "." + extension);
             return AssetDatabase.GenerateUniqueAssetPath(path);
         }
     }
