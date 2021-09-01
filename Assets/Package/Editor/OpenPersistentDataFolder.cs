@@ -9,7 +9,7 @@ namespace TSKT
     public class OpenPersistentDataFolder
     {
         [MenuItem("TSKT/Open PersistentDataFolder")]
-        static void OpenP()
+        static void Open()
         {
             Application.OpenURL(Application.persistentDataPath);
         }
