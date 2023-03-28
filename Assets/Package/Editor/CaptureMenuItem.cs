@@ -1,9 +1,7 @@
 #nullable enable
 using UnityEditor;
 using UnityEngine;
-using System.Collections;
 using System.IO;
-using UnityEngine.InputSystem;
 
 namespace TSKT
 {
